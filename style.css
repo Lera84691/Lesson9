@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+.line-one {
+    background-color: #d8ffbe;
+    padding: 15px;
+    margin-bottom: 60px;
+}
+
+.left {
+    float: left;
+    background-color: #eeb6dd;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+}
+
+.right {
+    float: right;
+    width: 160px;
+    background-color: #eeb6dd;
+    padding: 20px;
+    text-align: center;
+}
+
+.clearfix {
+    clear:both
+}
+
+.line-two {
+    background-color: #d8ffbe;
+    padding: 15px;
+    margin-bottom: 60px;
+}
+
+.text {
+    background-color: #eca66d;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+}
+
+.cards {
+    float: right;
+    padding: 30px;
+}
+
+.number {
+    background-color: #eca66d;
+    width: 70px;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    margin-right: 5px;
+}
+
+.number:last-child {
+    margin-right: 0;
+}
+
+.line-three {
+    background-color: #d8ffbe;
+    padding: 15px;
+    margin-bottom: 60px;
+}
+
+.desc {
+    background-color: #f09dd7;
+    width: 160px;
+    padding: 30px;
+    text-align: center;
+    float: left;
+    margin:10px 30px 10px 0px;
+}
+
+.desc-two {
+    float: right;
+}
+.desc:last-child {
+    margin-right: 0;
+}
+
+.line-four {
+    background-color: #d8ffbe;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.square {
+    font-size: x-large;
+    font-weight:500;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(230, 116, 154);
+    float: left;
+    padding: 50px;
+    
+}
+
+.domain {
+    text-align: center;
+    font-size: xx-large;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(148, 214, 157);
+    margin: 15px;
+    padding: 30px;
+}
+
+.domain-one {
+    float: left;
+}
+
+.content{
+    display: inline-block;
+    margin: 15px 15px;
+}
+
+.line-five {
+    background-color: #d8ffbe;
+    padding: 15px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.content-two {
+    float: right;
+    padding: 15px;
+}
+
+.content-two .square {
+    background-color: rgb(255, 148, 148);
+    padding: 60px;
+}
